@@ -36,8 +36,8 @@ namespace Exercise
 				UserData item = (UserData)e.Item;
 				First_Name = item.FirstName;
 				Last_Name = item.LastName;
-				Email = item.Email/*+item.Image*/;
-				//Image = item.Image;
+				Email = item.Email;
+				Image = item.Image;
 
 				await Navigation.PushModalAsync(new NavigationPage(new UserProfileSQL(item)));
 			};
@@ -61,7 +61,8 @@ namespace Exercise
 		{
 			Image image = new Image
 			{
-
+				WidthRequest = 50,
+				HeightRequest= 50
 			};
 			image.SetBinding(Image.SourceProperty, "Image");
 
@@ -110,7 +111,7 @@ namespace Exercise
 			{
 				Orientation = StackOrientation.Vertical,
 				HorizontalOptions = LayoutOptions.StartAndExpand,
-				Children = { firstStack, emaillbl /*,image*/}
+				Children = { firstStack, emaillbl}
 			};
 
 
@@ -118,7 +119,7 @@ namespace Exercise
 			{
 				Orientation = StackOrientation.Horizontal,
 				HorizontalOptions = LayoutOptions.StartAndExpand,
-				Children = { secondstack, btn }
+				Children = { new StackLayout { HeightRequest = 50, WidthRequest = 50, Children = { image } },secondstack,btn }
 			};
 
 			btn.Clicked += async (sender, e) =>

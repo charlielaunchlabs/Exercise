@@ -1484,6 +1484,10 @@ namespace Exercise.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_id = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_layout = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Exercise.Droid.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Exercise.Droid.Resource.String.Hello;
+			global::PCLStorage.Resource.String.ApplicationName = global::Exercise.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::Exercise.Droid.Resource.String.Hello;
 			global::XLabs.Platform.Resource.String.ApplicationName = global::Exercise.Droid.Resource.String.ApplicationName;
 			global::XLabs.Platform.Resource.String.Hello = global::Exercise.Droid.Resource.String.Hello;
 			global::XLabs.Forms.Resource.Animation.abc_fade_in = global::Exercise.Droid.Resource.Animation.abc_fade_in;
@@ -3061,10 +3065,6 @@ namespace Exercise.Droid
 			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_id = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
 			global::XLabs.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::Exercise.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Exercise.Droid.Resource.String.ApplicationName;
-			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Exercise.Droid.Resource.String.Hello;
-			global::PCLStorage.Resource.String.ApplicationName = global::Exercise.Droid.Resource.String.ApplicationName;
-			global::PCLStorage.Resource.String.Hello = global::Exercise.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Animation
@@ -5590,11 +5590,11 @@ namespace Exercise.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f05001f
-			public const int ApplicationName = 2131034143;
+			// aapt resource value: 0x7f050024
+			public const int ApplicationName = 2131034148;
 			
-			// aapt resource value: 0x7f05001e
-			public const int Hello = 2131034142;
+			// aapt resource value: 0x7f050023
+			public const int Hello = 2131034147;
 			
 			// aapt resource value: 0x7f05000c
 			public const int abc_action_bar_home_description = 2131034124;
@@ -5650,20 +5650,20 @@ namespace Exercise.Droid
 			// aapt resource value: 0x7f05000b
 			public const int appbar_scrolling_view_behavior = 2131034123;
 			
-			// aapt resource value: 0x7f050021
-			public const int day_name_format = 2131034145;
-			
-			// aapt resource value: 0x7f050024
-			public const int full_date_format = 2131034148;
+			// aapt resource value: 0x7f05001f
+			public const int day_name_format = 2131034143;
 			
 			// aapt resource value: 0x7f050022
-			public const int invalid_date = 2131034146;
+			public const int full_date_format = 2131034146;
 			
 			// aapt resource value: 0x7f050020
-			public const int library_name = 2131034144;
+			public const int invalid_date = 2131034144;
 			
-			// aapt resource value: 0x7f050023
-			public const int month_name_format = 2131034147;
+			// aapt resource value: 0x7f05001e
+			public const int library_name = 2131034142;
+			
+			// aapt resource value: 0x7f050021
+			public const int month_name_format = 2131034145;
 			
 			// aapt resource value: 0x7f050000
 			public const int mr_media_route_button_content_description = 2131034112;

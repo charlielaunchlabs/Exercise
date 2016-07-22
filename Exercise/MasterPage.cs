@@ -16,7 +16,6 @@ namespace Exercise
 				Padding = new Thickness(10, 36, 0, 5),
 				Content = new Label
 				{
-					HorizontalTextAlignment = TextAlignment.Center,
 					TextColor = Color.Black,
 					Text = "--- Menu ---",
 				}

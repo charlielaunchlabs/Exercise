@@ -17,7 +17,6 @@ namespace Exercise
 				Children = {
 					new Label
 					{
-						HorizontalTextAlignment = TextAlignment.Center,
 						Text = MainPage.First_Name+" "+MainPage.Last_Name
 					},
 					new Label { Text = MainPage.Email },

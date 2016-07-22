@@ -58,6 +58,8 @@ namespace Exercise
 			email.WidthRequest = 250;
 
 			image.Source = clickedData.Image;
+			image.HeightRequest = 300;
+			image.WidthRequest = 300;
 			Content = new StackLayout
 			{
 				HorizontalOptions = LayoutOptions.CenterAndExpand,
@@ -66,6 +68,7 @@ namespace Exercise
 
 			btn.Clicked += async (sender, e) =>
 			{
+
 				var device = Resolver.Resolve<IDevice>();
 				var mp = device.MediaPicker;
 				var options = new XLabs.Platform.Services.Media.CameraMediaStorageOptions();
@@ -81,7 +84,6 @@ namespace Exercise
 
 
 		}
-
 
 
 		public async void saveF()

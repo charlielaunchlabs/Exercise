@@ -35,15 +35,12 @@ namespace Exercise
 
 
 			fname.Placeholder = "First Name";
-			fname.PlaceholderColor = Color.Black;
 			fname.WidthRequest = 250;
 
 			lname.Placeholder = "Last Name";
-			lname.PlaceholderColor = Color.Black;
 			lname.WidthRequest = 250;
 
 			email.Placeholder = "Email";
-			email.PlaceholderColor = Color.Black;
 			email.WidthRequest = 250;
 
 
