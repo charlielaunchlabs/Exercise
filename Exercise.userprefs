@@ -1,0 +1,4 @@
+﻿<Properties StartupItem="iOS/Exercise.iOS.csproj">
+  <MonoDevelop.Ide.ItemProperties.Exercise.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C3B3234B-BAE2-4A0E-8E64-FCE5772F4147" />
+  <MonoDevelop.Ide.ItemProperties.Exercise.Droid PreferredExecutionTarget="Android.Nexus 4 (Jelly Bean)" />
+</Properties>
